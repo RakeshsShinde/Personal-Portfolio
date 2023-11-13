@@ -29,7 +29,7 @@ const SideBar = () => {
             className='flex flex-col justify-center items-center z-40 bg-white text-black '>
             <motion.div
                 variants={variants}
-                className='fixed top-0 h-[700px] md:h-[800px] left-0 bottom-0 w-[300px] md:w-[400px] bg-white'>
+                className='fixed top-0 h-[750px] md:h-[800px] left-0 bottom-0 w-[300px] md:w-[400px] bg-white'>
                 <Links />
             </motion.div>
             <ToggleButtons setopen={setopen} />
