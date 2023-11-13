@@ -15,7 +15,9 @@ const Navbar = () => {
                     Rakesh Shinde
                 </motion.h3>
             </div>
-            <button className=" px-2 py-2 rounded-sm border-[1px] transition duration-200 hover:bg-green-500 hover:border-none border-slate-400 ">Contact Me</button>
+            <a href='mailto:rakeshshinde5253@gmail.com' target={'_blank'}>
+                <button className=" px-2 py-2 rounded-sm border-[1px] transition duration-200 hover:bg-green-500 hover:border-none border-slate-400 ">Contact Me</button>
+            </a>
         </div>
 
     );

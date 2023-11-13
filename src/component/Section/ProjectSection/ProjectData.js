@@ -18,7 +18,7 @@ export const projectData = [
         title: "Personal Portfolio",
         description: "personal portfolio is a dynamic showcase of my skills and projects. Explore visually journey through my work, enhanced by smooth transitions and engaging motions.",
         imageUrl: "/images/projects/portfolio.png",
-        url: "https://github.com/RakeshsShinde/Mern-Blog-App",
+        url: "https://rakeshshindeportfolio.netlify.app",
     },
 
 ]
