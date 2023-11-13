@@ -58,7 +58,7 @@ const Hero = () => {
                                     See Latest Work
                                 </button>
                             </a>
-                            <a className='cursor-pointer' target={'_blank'} href='https://drive.google.com/file/d/1vKcivqH2hW6Qk00cIuT65i4Q65tCo_XW/view' download={true}>
+                            <a className='cursor-pointer' target={'_blank'} href='https://drive.google.com/file/d/1Ihusy6R-TXYZKNVL-Ycx_iU5_lvVzFmb/view' download={true}>
                                 <button
                                     className='p-[8px] md:p-[10px] z-50 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg border-white'>
                                     Download Cv
@@ -78,7 +78,7 @@ const Hero = () => {
                     initial={{ x: 250, opacity: 0 }}
                     animate={{ x: 0, opacity: 1, transition: { duration: 1 } }}
                     className='h-full overflow-hidden w-full mx-auto flex  md:flex justify-center items-center  z-20 '>
-                    <img src={'rakeshs.jpg'}
+                    <img src={'/images/rakeshs.jpg'}
                         className='max-h-[250px] max-w-[250px] md:max-w-[400px] md:max-h-[400px] w-[400px] filter grayscale hover:grayscale-0 relative rounded-[50%] lg:max-h-[450px] lg:max-w-[500px] object-cover object-center' />
                 </motion.div>
             </div>
