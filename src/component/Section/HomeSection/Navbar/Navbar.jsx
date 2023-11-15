@@ -4,7 +4,7 @@ import SideBar from '../Sidebar/SideBar';
 const Navbar = () => {
     return (
 
-        <div className=" px-4 md:px-4 py-8 flex overflow-y-hidden w-full items-center z-50  min-h-[100px] fixed top-0 justify-between">
+        <div className=" px-4 md:px-4 py-8 flex overflow-y-hidden max-w-[100vw] w-full items-center z-50  min-h-[100px] fixed top-0 justify-between">
             <div className='flex gap-2 items-center'>
                 <SideBar />
                 <motion.h3

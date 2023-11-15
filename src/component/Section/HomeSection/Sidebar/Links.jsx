@@ -37,7 +37,7 @@ const Links = () => {
     return (
         <motion.div variants={variants} className='absolute  w-full h-full flex flex-col items-center justify-center md:justify-normal md:mt-[250px] gap-[20px] md:gap-[30px] '>
             {items.map((i, index) => (
-                <motion.a variants={itemVariants} className='text-2xl md:text-[30px] font-mons font-semibold text-slate-500 hover:text-slate-800' href={`#${i}`}>{i}</motion.a>
+                <motion.a key={index} variants={itemVariants} className='text-2xl md:text-[30px] font-mons font-semibold text-slate-500 hover:text-slate-800' href={`#${i}`}>{i}</motion.a>
             ))}
         </motion.div>
     );

@@ -35,7 +35,7 @@ const variants = {
 
 const AboutSection = () => {
     const ref = useRef();
-    const isInView = useInView(ref, { margin: "-100px" })
+    const isInView = useInView(ref, { margin: "-50px" })
     return (
         <>
             <section id='About' className='min-h-screen  max-w-full flex flex-col items-center  justify-center text-white'>
@@ -61,8 +61,8 @@ const AboutSection = () => {
 
                     </motion.div>
                     <motion.div variants={variants} className='flex justify-center gap-6 '>
-                        {socialLinks.map((item) => (
-                            <motion.a href={item.link} variants={variants}>
+                        {socialLinks.map((item, index) => (
+                            <motion.a key={index} href={item.link} variants={variants}>
                                 <img className='cursor-pointer transition duration-150 hover:scale-110' src={item.image} />
                             </motion.a>
                         ))}
